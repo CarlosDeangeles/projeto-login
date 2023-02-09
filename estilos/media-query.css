@@ -5,19 +5,25 @@
         background-image: linear-gradient(to top,#f7ae12,rgb(0, 0, 0, 0.678));
     }
 
+    
     section#login {
-        width: 80vw;        
+        width: 700px;
+        height: 350px;
+               
     }
 
     section#login > div#imagem {
         float: left;
-        width: 30%;
-        height: 100%;
+            background-size: cover;
+            height: 350px;            
+            width: 410px;        
+        
     }
     
     section#login > div#formulario {
-        float: right;
-        width: 70%;
+        float: left;
+        width: 40%;
+        
     }
 }
 
@@ -28,18 +34,23 @@
     }
 
     section#login {
-        width: 950px;
+        width: 1000px;
+        
     }
 
     section#login > div#imagem {
-        float: right;
-        width: 50%;
-        height: 100%;
+        float: left;
+        width: 60%;
+        height: 500px;
+       
+        
+                
     }
 
     section#login > div#formulario {
         float: left;
-        width: 50%;
+        width:40%;    
+        
     }
 
     div#formulario > h1 {
